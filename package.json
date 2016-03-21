@@ -1,6 +1,6 @@
 {
   "name": "stylelint-value-no-padding-auto",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A stylelint custom rule to catch the invalid use of 'padding: auto'",
   "main": "index.js",
   "scripts": {
