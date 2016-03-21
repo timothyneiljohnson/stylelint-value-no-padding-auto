@@ -1,0 +1,33 @@
+{
+  "name": "stylelint-value-no-padding-auto",
+  "version": "0.1.0",
+  "description": "A stylelint custom rule to catch the invalid use of 'padding: auto'",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timothyneiljohnson/stylelint-value-no-padding-auto.git"
+  },
+  "keywords": [
+    "stylelint",
+    "stylelint-plugin",
+    "css",
+    "linter"
+  ],
+  "author": "Tim Johnson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timothyneiljohnson/stylelint-value-no-padding-auto/issues"
+  },
+  "homepage": "https://github.com/timothyneiljohnson/stylelint-value-no-padding-auto#readme",
+  "devDependencies": {
+    "tape": "^4.2.2"
+  },
+  "dependencies": {
+    "object-assign": "^4.0.1",
+    "stylelint": ">=3.0.2",
+    "stylelint-rule-tester": "^0.6.1"
+  }
+}
