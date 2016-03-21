@@ -2,7 +2,7 @@ const assign = require('object-assign');
 const stylelint = require('stylelint');
 const ruleName = 'value-no-padding-auto';
 const messages = stylelint.utils.ruleMessages(ruleName, {
-  rejected: '\'auto\' is not valid value for property \'padding\''
+  rejected: '\'auto\' is not a valid value for property \'padding\''
 });
 
 module.exports = stylelint.createPlugin(ruleName, (actual) =>
